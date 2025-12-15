@@ -1,0 +1,43 @@
+.solar-system {
+  background: radial-gradient(circle at center, #000814 0%, #001D3D 50%, #003566 100%);
+  border-radius: 8px;
+  position: relative;
+}
+
+.planet-label {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 300;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+}
+
+.planet-label.clickable {
+  pointer-events: all;
+  transition: fill 0.2s ease, text-shadow 0.2s ease;
+}
+
+.planet-label.clickable:hover {
+  fill: #FFD700 !important;
+  text-shadow: 0 0 6px rgba(255, 215, 0, 0.8), 1px 1px 2px rgba(0, 0, 0, 0.9);
+}
+
+.sun-label {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 400;
+  pointer-events: none;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
+}
+
+.orbital-trails {
+  pointer-events: none;
+}
+
+.orbital-trail {
+  filter: drop-shadow(0 0 2px rgba(255, 255, 255, 0.1));
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.orbital-ellipse {
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}

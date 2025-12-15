@@ -1,0 +1,43 @@
+{
+  "name": "solar-orbit-predictor",
+  "version": "1.1.0",
+  "description": "A comprehensive 3D solar system orbit predictor with planetary rings and moons built with React and Three.js",
+  "main": "index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --coverage",
+    "eject": "react-scripts eject"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@react-three/drei": "^9.88.15",
+    "@react-three/fiber": "^8.15.19",
+    "@types/react": "^18.2.7",
+    "@types/react-dom": "^18.2.10",
+    "@types/three": "^0.158.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "three": "^0.158.0",
+    "typescript": "^4.9.5"
+  },
+  "devDependencies": {
+    "@types/jest": "^30.0.0",
+    "react-scripts": "^5.0.1"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "keywords": [],
+  "type": "commonjs"
+}
